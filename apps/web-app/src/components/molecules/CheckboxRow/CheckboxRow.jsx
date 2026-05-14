@@ -12,7 +12,7 @@ const CheckboxRow = ({ checked, onChange, onForgotPassword }) => {
       <button
         type="button"
         onClick={onForgotPassword}
-        className="text-sm text-zinc-300 underline hover:text-zinc-100 transition-colors cursor-pointer bg-transparent border-none"
+        className="text-sm text-brand-muted underline hover:text-brand-text transition-colors cursor-pointer bg-transparent border-none"
       >
         Esqueci a senha
       </button>

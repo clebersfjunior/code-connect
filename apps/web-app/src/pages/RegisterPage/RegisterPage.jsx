@@ -1,15 +1,15 @@
 import AuthLayout from '../../components/templates/AuthLayout/AuthLayout'
 import AuthBanner from '../../components/organisms/AuthBanner/AuthBanner'
-import LoginForm from '../../components/organisms/LoginForm/LoginForm'
+import RegisterForm from '../../components/organisms/RegisterForm/RegisterForm'
 
-const LoginPage = ({ onRegister }) => {
+const RegisterPage = ({ onLogin }) => {
   return (
     <AuthLayout
       banner={<AuthBanner imageSrc="/banner-login.png" />}
     >
-      <LoginForm onRegister={onRegister} />
+      <RegisterForm onLogin={onLogin} />
     </AuthLayout>
   )
 }
 
-export default LoginPage
+export default RegisterPage

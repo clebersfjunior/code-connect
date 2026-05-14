@@ -26,8 +26,8 @@ const LoginForm = ({ onSubmit, onForgotPassword, onRegister, onGithub, onGmail }
   return (
     <div className="flex flex-col gap-8 w-full max-w-sm">
       <div>
-        <h1 className="text-3xl font-bold text-zinc-100 mb-2">Login</h1>
-        <p className="text-zinc-400 text-base">Boas-vindas! Faça seu login.</p>
+        <h1 className="text-3xl font-bold text-brand-text mb-2">Login</h1>
+        <p className="text-brand-muted text-lg">Boas-vindas! Faça seu login.</p>
       </div>
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-5" noValidate>
@@ -69,12 +69,12 @@ const LoginForm = ({ onSubmit, onForgotPassword, onRegister, onGithub, onGmail }
         </div>
       </div>
 
-      <div className="text-center text-sm text-zinc-400">
+      <div className="text-center text-sm text-brand-muted">
         <p>Ainda não tem conta?</p>
         <button
           type="button"
           onClick={onRegister}
-          className="text-green-400 font-semibold hover:text-green-300 transition-colors cursor-pointer bg-transparent border-none mt-1 inline-flex items-center gap-1"
+          className="text-brand-verde font-semibold hover:opacity-80 transition-opacity cursor-pointer bg-transparent border-none mt-1 inline-flex items-center gap-1"
         >
           Crie seu cadastro! 🗒️
         </button>
