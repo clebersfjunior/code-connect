@@ -1,0 +1,22 @@
+{
+  "name": "code-connect",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "react:dev": "pnpm --filter react-app dev",
+    "react:build": "pnpm --filter react-app build",
+    "react:lint": "pnpm --filter react-app lint",
+    "react:preview": "pnpm --filter react-app preview",
+    "nest:build": "pnpm --filter nest-app build",
+    "nest:start": "pnpm --filter nest-app start",
+    "nest:start:dev": "pnpm --filter nest-app start:dev",
+    "nest:start:debug": "pnpm --filter nest-app start:debug",
+    "nest:start:prod": "pnpm --filter nest-app start:prod",
+    "nest:lint": "pnpm --filter nest-app lint",
+    "nest:test": "pnpm --filter nest-app test",
+    "nest:test:watch": "pnpm --filter nest-app test:watch",
+    "nest:test:cov": "pnpm --filter nest-app test:cov",
+    "nest:test:debug": "pnpm --filter nest-app test:debug",
+    "nest:test:e2e": "pnpm --filter nest-app test:e2e"
+  }
+}
