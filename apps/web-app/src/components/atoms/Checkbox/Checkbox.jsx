@@ -9,9 +9,9 @@ const Checkbox = ({ id, checked, onChange, label, className = '' }) => {
         type="checkbox"
         checked={checked}
         onChange={onChange}
-        className="w-4 h-4 accent-green-400 cursor-pointer"
+        className="w-4 h-4 accent-brand-verde cursor-pointer"
       />
-      {label && <span className="text-sm text-zinc-300">{label}</span>}
+      {label && <span className="text-sm text-brand-muted">{label}</span>}
     </label>
   )
 }

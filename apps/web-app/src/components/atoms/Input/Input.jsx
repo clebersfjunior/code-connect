@@ -7,9 +7,9 @@ const Input = ({ id, type = 'text', placeholder, value, onChange, className = ''
       value={value}
       onChange={onChange}
       className={[
-        'w-full rounded-lg bg-zinc-700 text-zinc-100 placeholder-zinc-400',
+        'w-full rounded-lg bg-brand-input text-brand-text placeholder-brand-muted',
         'px-4 py-3 text-sm outline-none border border-transparent',
-        'focus:border-green-400 transition-colors',
+        'focus:border-brand-verde transition-colors',
         className,
       ].join(' ')}
       {...props}

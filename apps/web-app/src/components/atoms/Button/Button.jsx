@@ -1,9 +1,9 @@
 const Button = ({ children, type = 'button', onClick, variant = 'primary', className = '', ...props }) => {
   const variants = {
     primary:
-      'bg-green-400 hover:bg-green-300 text-zinc-900 font-bold',
+      'bg-brand-verde hover:opacity-90 text-zinc-900 font-bold',
     ghost:
-      'bg-zinc-700 hover:bg-zinc-600 text-zinc-100',
+      'bg-brand-input hover:bg-zinc-600 text-brand-text',
   }
 
   return (
