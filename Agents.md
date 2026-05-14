@@ -4,8 +4,8 @@
 
 Este repositório é um workspace com aplicações separadas em `apps/`.
 
-- **Backend**: `apps/nest-app`, aplicação NestJS.
-- **Frontend**: `apps/react-app`, aplicação React.
+- **Backend**: `apps/api-app`, aplicação NestJS.
+- **Frontend**: `apps/web-app`, aplicação React.
 
 ## Instruções para agentes
 
